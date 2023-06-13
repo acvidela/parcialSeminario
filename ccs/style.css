@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:'Saiyan_Sans';
+    src: url('Saiyan-Sans.ttf');
+}
+
+body {
+    width:100vw; 
+    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+}
+
+h1{
+    font-family: 'Saiyan_Sans';
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px;
+    color: red;
+    text-shadow: 2px 2px 1px #000000; 
+}
+
+h2, h3{
+    color: blue;
+    font-size: 2rem;
+}
+
+ul, ol{
+    padding: 20px;
+    margin: 20px;
+}
+
+ul > li{
+    list-style-image: -webkit-linear-gradient(red,blue);
+}
+
+main{
+    width:80%;
+    height: 80%;
+    margin: 5px;
+    padding: 5px;
+}
+
+aside{
+    width:20%; 
+    height:50%;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    height: 30%;
+}
+.slidebar {
+   height:50%;
+   border:solid;
+   border-color: blue;
+   margin: 5px;
+}
+.slidebar img {
+    display: block;
+    border-style: solid;
+    margin-bottom: 5px;
+    max-width: 100%;
+    height: auto;
+ }
+
+  .contenedorMedio {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row-reverse;
+  }
+
+  section{
+    display:flex;
+    justify-content: space-between;
+    margin: 5px;
+    border:#fc6324;
+
+  }
+
+  .divFooter{
+    width:100%;
+    text-align: center;
+  }
